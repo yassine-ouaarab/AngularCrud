@@ -1,0 +1,13 @@
+<p>{{varhome}}</p>
+<input [value]="myinput"/>
+<input [required]="mybool"/>
+<input (click)="myclick('i dont like beef')" type="submit" value="click moi">
+
+<!--  2 way data binding  -->
+<input [(ngModel)]="ninja.name"/>
+
+<p>{{ ninja.name }}</p>
+<p>{{ ninja.color }}</p>
+
+<p>{{ players.name }}</p>
+
